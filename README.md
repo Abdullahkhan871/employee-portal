@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pull Request #1
 
-## Getting Started
+## Feature
 
-First, run the development server:
+Built the Employee Portal routing structure.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What I Implemented
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Created dashboard page
+- Created employees page
+- Created departments page
+- Created settings page
+- Added home page
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+src/
+└── app/
+├── page.tsx
+├── dashboard/
+│ └── page.tsx
+├── employees/
+│ └── page.tsx
+├── departments/
+│ └── page.tsx
+└── settings/
+└── page.tsx
 
-## Learn More
+## Questions
 
-To learn more about Next.js, take a look at the following resources:
+### 1.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+if dev have to do routing manually it would less effiencet. means if dev have to edit name of page they have to changes on routing also it can make not sense. there would be hundreds of route.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2.
 
-## Deploy on Vercel
+It would be deficult for dev to edit name of file which are bind to route they always have change both side.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+it would become route app/components/ but they would be error because there is no page.tsx.
+
+### 4.
+
+There is a major difference we use app folder to routing in our project but in components folder we usually have re usable components.
+
+## Problems I Faced
+
+Having problem on explaining or maybe understanding the theory concept.
