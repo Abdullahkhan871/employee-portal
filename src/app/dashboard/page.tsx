@@ -1,5 +1,3 @@
-const dashboardPage = () => {
+export default function dashboardPage({}) {
   return <div>dashboard Page</div>;
-};
-
-export default dashboardPage;
+}
